@@ -1,0 +1,16 @@
+C:\Users\Ucenik\Documents\GabrielCondricNIOP\Zad_vježba_1\obj\Debug\Zad_vježba_1.csproj.AssemblyReference.cache
+C:\Users\Ucenik\Documents\GabrielCondricNIOP\Zad_vježba_1\obj\Debug\Zad_vježba_1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ucenik\Documents\GabrielCondricNIOP\Zad_vježba_1\obj\Debug\Zad_vježba_1.csproj.CoreCompileInputs.cache
+C:\Users\Ucenik\Documents\GabrielCondricNIOP\Zad_vježba_1\bin\Debug\Zad_vježba_1.exe.config
+C:\Users\Ucenik\Documents\GabrielCondricNIOP\Zad_vježba_1\bin\Debug\Zad_vježba_1.exe
+C:\Users\Ucenik\Documents\GabrielCondricNIOP\Zad_vježba_1\bin\Debug\Zad_vježba_1.pdb
+C:\Users\Ucenik\Documents\GabrielCondricNIOP\Zad_vježba_1\obj\Debug\Zad_vježba_1.exe
+C:\Users\Ucenik\Documents\GabrielCondricNIOP\Zad_vježba_1\obj\Debug\Zad_vježba_1.pdb
+C:\Users\kukec\Source\Repos\Zadatak-Vje-ba\Zad_vježba_1\bin\Debug\Zad_vježba_1.exe.config
+C:\Users\kukec\Source\Repos\Zadatak-Vje-ba\Zad_vježba_1\bin\Debug\Zad_vježba_1.exe
+C:\Users\kukec\Source\Repos\Zadatak-Vje-ba\Zad_vježba_1\bin\Debug\Zad_vježba_1.pdb
+C:\Users\kukec\Source\Repos\Zadatak-Vje-ba\Zad_vježba_1\obj\Debug\Zad_vježba_1.csproj.AssemblyReference.cache
+C:\Users\kukec\Source\Repos\Zadatak-Vje-ba\Zad_vježba_1\obj\Debug\Zad_vježba_1.csproj.SuggestedBindingRedirects.cache
+C:\Users\kukec\Source\Repos\Zadatak-Vje-ba\Zad_vježba_1\obj\Debug\Zad_vježba_1.csproj.CoreCompileInputs.cache
+C:\Users\kukec\Source\Repos\Zadatak-Vje-ba\Zad_vježba_1\obj\Debug\Zad_vježba_1.exe
+C:\Users\kukec\Source\Repos\Zadatak-Vje-ba\Zad_vježba_1\obj\Debug\Zad_vježba_1.pdb
