@@ -93,7 +93,7 @@ namespace Zad_vježba_1
             competition.AddEntery(e2);
             Console.WriteLine("Entry 2 rating: " + e2.GetRating());
 
-            Console.WriteLine("Best dessert is: " + competition.getBestDesert().Dessert.Name);
+            Console.WriteLine(competition.getBestDesert());
 
             List<Person> e2persons = competition.getInvolvedPeople(e2);
             foreach(Person p in e2persons)

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
@@ -49,19 +50,46 @@ namespace Zad_vježba_1
                 return true;
             }
         }
-        public CompetitionEntry getBestDesert()
+        public string getBestDesert()
         {
-            CompetitionEntry best = new CompetitionEntry();
-            
-            foreach(CompetitionEntry entry in entries)
+            List<string> names = new List<string>();
+            string name = "", dessert_name = "";
+            double best = 0;
+            bool tie = false;
+            foreach (CompetitionEntry entry in entries)
             {
-                if (entry.GetRating() > best.GetRating())
+                if (entry.GetRating() == best)
                 {
-                    best = entry;
+                    tie = true;
+                    names.Add(entry.Teacher.Name);
+                }
+                if (entry.GetRating() >= best)
+                {
+                    tie = false;
+                    names.Clear();
+                    best = entry.GetRating();
+                    name = entry.Teacher.Name;
+                    dessert_name = entry.Dessert.Name;
+                    names.Add(name);
                 }
             }
-
-            return best;
+            if (tie == true)
+            {
+                return GetTied(names);
+            }
+            else
+            {
+                return "The winner is: " + name + " with a " + dessert_name;
+            }
+        }
+        public string GetTied(List<string> names)
+        {
+            string all_names = "";
+            foreach(string name in names)
+            {
+                all_names += name;
+            }
+            return "Its a tie, the winners are: " ;
         }
         public List<Person> getInvolvedPeople(CompetitionEntry entry)
         {

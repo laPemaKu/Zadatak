@@ -8,8 +8,12 @@ namespace Zad_vježba_1
 {
     internal class Person
     {
-        string name, surname;
+        public string name, surname;
         int age;
+
+        public Person()
+        {
+        }
 
         public Person(string name, string surname, int age)
         {

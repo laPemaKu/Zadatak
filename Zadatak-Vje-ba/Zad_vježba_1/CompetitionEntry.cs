@@ -11,14 +11,15 @@ namespace Zad_vježba_1
         Teacher teacher;
         Dessert dessert;
         List<Student> students = new List<Student>();
-        int[] ocjene = new int[3];
-        public int ratings=0;
+        double[] ocjene = new double[3];
+        int ratings=0;
+        
 
         public CompetitionEntry()
         {
 
         }
-        public CompetitionEntry(Teacher teacher, Dessert dessert, List<Student> students, int[] ocjene)
+        public CompetitionEntry(Teacher teacher, Dessert dessert, List<Student> students, double[] ocjene)
         {
             this.teacher = teacher;
             this.dessert = dessert;
@@ -32,7 +33,7 @@ namespace Zad_vježba_1
             this.dessert = dessert;
         }
 
-        public int[] Ocjene { get => ocjene; set => ocjene = value; }
+        public double[] Ocjene { get => ocjene; set => ocjene = value; }
         internal Teacher Teacher { get => teacher; set => teacher = value; }
         internal Dessert Dessert { get => dessert; set => dessert = value; }
         internal List<Student> Students { get => students; set => students = value; }
@@ -75,13 +76,17 @@ namespace Zad_vježba_1
 
         public double GetRating()
         { 
-            int ukupno=0;
-            
+            if(ratings == 0)
+            {
+                return 0;
+            }
+            double ukupno=0;
             foreach(int ocjena in ocjene)
             {
                 ukupno += ocjena;
             }
-            double prosjecna = ukupno / 3;
+            double prosjecna = ukupno / ratings;
+            ratings = 0;
             return prosjecna;
         }
     }

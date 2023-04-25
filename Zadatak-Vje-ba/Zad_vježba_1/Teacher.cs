@@ -11,6 +11,10 @@ namespace Zad_vježba_1
         string email, subject;
         double salary;
 
+        public Teacher()
+        {
+        }
+
         public Teacher(string name, string surname, int age, string email, string subject, double salary) : base(name, surname, age)
         {
             this.email = email;

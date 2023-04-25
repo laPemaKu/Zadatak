@@ -8,9 +8,13 @@ namespace Zad_vježba_1
 {
     internal class Dessert
     {
-        string name;
+        public string name;
         double weight;
         int calories;
+
+        public Dessert()
+        {
+        }
 
         public Dessert(string name, double weight, int calories)
         {
